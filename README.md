@@ -29,7 +29,7 @@ The purpose of this repository is to store and present the weekly tasks complete
 
 During development, additional folders (labs and courseware) were present locally to support learning but were later removed to keep this submission repository clean and focused on assessable work.
 
-As part of this cleanup, the repository history was synchronised with GitHub, which may cause the file view to appear unsyncronised with the orginal work dates. 
+As part of this cleanup, the repository history was synchronised with GitHub, which may cause the file view to appear unsyncronised with the orginal work dates.  
 
 ---
 
