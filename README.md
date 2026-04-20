@@ -1,4 +1,4 @@
-# pands-atu - Programming and Scripting (PANDS)
+# Programming and Scripting (PANDS)
 
 This repository contains my weekly task submissions for the Programming and Scripting module, part of the Higher Diploma in Data Analytics at ATU.
 
