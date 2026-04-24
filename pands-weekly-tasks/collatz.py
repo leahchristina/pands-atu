@@ -5,17 +5,17 @@
 # 1. Ask the user for input
 inputted_integer = int(input("Enter a positive integer: ")) # converted string input to integer
 
-# 2. Check the input is positive (show error when negative or zero is entered)
+# 2. Check the input is positive (show error when negative or zero is entered) [3]
 while inputted_integer <= 0:
     print("Please enter a number greater than 0.")
     inputted_integer = int(input("Enter a positive integer: "))
 # Prompt re-entry
 
-# 3. Using a while loop to repeat steps until the number is 1
+# 3. Using a while loop to repeat steps until the number is 1 [2]
 while inputted_integer !=1:
     print(inputted_integer) #Show current value
 
-# 4. Apply Collatz rules
+# 4. Apply Collatz rules [1]
     if inputted_integer % 2 == 0: #is even
      inputted_integer = inputted_integer // 2 
     else:
@@ -24,3 +24,7 @@ while inputted_integer !=1:
 
 # 5. When the loop ends, n must be 1
 print(inputted_integer)
+
+# [1] Collatz rules: https://www.wiris.com/en/blog/what-is-the-collatz-conjecture/
+# [2] Sample code I took some ideas from https://medium.com/@chakshugupta774/exploring-the-collatz-conjecture-with-python-7c5d9f31d233
+# [3] While loops reading: https://realpython.com/python-while-loop/

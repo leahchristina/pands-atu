@@ -27,6 +27,7 @@ y = x ** 3
 plt.figure(figsize=(8, 6))
 
 # 4. Histogram (normalised so it fits nicely with the line plot), representing probability instead of raw counts for readability (done originally on raw counts and it was a mess).
+# Used an LLM to talk me through the design elements [5]: 
 plt.hist(
     data,
     bins=30,
@@ -71,3 +72,5 @@ print("Plot saved as plottask.png")
 
 # Matplotlib Documentation – Plotting Lines
 # https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
+
+# [5] LLM Conversation on histogram design: https://m365.cloud.microsoft/chat/?fromCode=cmcv2&redirectId=D9355808C958483BBE56620D01A398DA&login_hint=leah.curran1%40abbott.com&internalredirect=CCM&client-request-id=5662cce2-e961-4658-9923-89cab8addad6&origindomain=CCM

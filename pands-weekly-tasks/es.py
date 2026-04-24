@@ -21,7 +21,7 @@ try:
         text = file.read()
 
     # 4. Count the number of lowercase 'e' characters
-    count = text.count("e") # possible option/enhancement? count both upper & lowercase: e_count = contents.lower().count('e')
+    count = text.count("e") # note: possible option/enhancement? count both upper & lowercase: e_count = contents.lower().count('e')
 
     # 5. Output the result
     print(count)
